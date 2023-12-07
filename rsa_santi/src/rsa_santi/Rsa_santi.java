@@ -4,7 +4,7 @@
  */
 package rsa_santi;
 
-import GUI.CIFRAR;
+import GUI.INTERFAZ;
 
 /**
  *
@@ -16,9 +16,8 @@ public class Rsa_santi {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        CIFRAR main = new CIFRAR();
+        INTERFAZ main = new INTERFAZ();
         main.setVisible(true);
-        main.setLocationRelativeTo(null);
     }
     
 }
